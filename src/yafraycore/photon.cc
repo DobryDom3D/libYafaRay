@@ -1,4 +1,5 @@
 
+#include <limits>
 #include <yafraycore/photon.h>
 #include <core_api/file.h>
 

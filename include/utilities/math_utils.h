@@ -4,6 +4,7 @@
 #define Y_MATHUTIL_H
 
 #include <cmath>
+#include <limits>
 
 //#if ( defined(__i386__) || defined(_M_IX86) || defined(_X86_) )
 //#define FAST_INT 1

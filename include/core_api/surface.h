@@ -23,6 +23,7 @@
 #ifndef Y_SURFACE_H
 #define Y_SURFACE_H
 
+#include <limits>
 #include <yafray_constants.h>
 #include "vector3d.h"
 #include "color.h"
