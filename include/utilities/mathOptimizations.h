@@ -146,7 +146,7 @@ inline float asmSqrt(float n)
     float r = n;
 #ifdef _MSC_VER
 	r = sqrt(n);
-#elif defined (__APPLE__)
+#elif defined (__APPLE__) && (defined (__i386__) || defined (__x86_64__))
 	asm(
 		"flds %0;"
 		"fsqrt;"
